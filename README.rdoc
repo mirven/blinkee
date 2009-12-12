@@ -2,13 +2,17 @@
 
 blinkee is a simple rails helper for the <blink> tag.
 
-<%= blink("foo") %> -- produces <blink>foo</blink>
+  <%= blink("foo") %> -- produces <blink>foo</blink>
 
 can also be passed a block
 
-<% blink do %>
-  foo
-<% end %>
+  <% blink do %>
+     foo
+  <% end %>
+
+= installation
+
+  gem install blinkee
 
 == Note on Patches/Pull Requests
  
