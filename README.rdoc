@@ -14,6 +14,10 @@ can also be passed a block
 
   gem install blinkee
 
+in environment.rb add
+
+  config.gem 'blinkee'
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
